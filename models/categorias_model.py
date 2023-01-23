@@ -12,3 +12,11 @@ class CategoriasModel(db.Model):
     def __init__(self, nombre, estado=None) -> None:
         self.nombre = nombre
         self.estado = estado
+
+
+    def convertirJson(self):
+        return{
+            'id' : self.id,
+            'nombre': self.nombre,
+            'estado': self.estado
+        }
