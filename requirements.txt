@@ -12,4 +12,5 @@ Mako==1.2.4
 MarkupSafe==2.1.2
 pycodestyle==2.10.0
 SQLAlchemy==1.4.46
+tomli==2.0.1
 Werkzeug==2.2.2

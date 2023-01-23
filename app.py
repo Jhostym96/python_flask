@@ -15,5 +15,6 @@ migrate = Migrate(app, db)
 def index():
     return 'Servidor Flask Corriendo 🚀'
 
+import routers.categorias_router 
 import routers.productos_router
-import routers.categorias_router
+
