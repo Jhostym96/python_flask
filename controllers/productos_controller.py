@@ -3,7 +3,7 @@ from models.productos_model import ProductosModel
 
 class ProductosController:
 
-    def __init__(self, numero, texto) -> None:
+    def __init__(self) -> None:
         self.model = ProductosModel
 
     def crearProducto(self):
