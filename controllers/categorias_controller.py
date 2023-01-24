@@ -23,8 +23,6 @@ class CategoriasController:
     def listarCategorias(self):
         try:
             categorias = self.model.query.all()
-
-            print(categorias)
             response = []
             for categoria in categorias:
                 response.append(categoria.convertirJson())
